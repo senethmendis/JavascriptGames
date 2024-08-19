@@ -4,3 +4,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#result {
+  color: #0066db;
+}
