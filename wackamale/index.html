@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wack A Mole</title>
+  </head>
+  <body>
+    <div class="clock">
+      <h2>Selec Play Time</h2>
+      <p>Default Time is set to 5 sec</p>
+      <div class="select-timers">
+        <button id="select-play-time" value="10">10</button>
+        <button id="select-play-time" value="30">30</button>
+        <button id="select-play-time" value="60">60</button>
+      </div>
+    </div>
+
+    <h2>Your score is: <span id="score">0</span></h2>
+    <h2>Time Left ⌛ <span id="time-left">5</span></h2>
+
+    <button id="start-btn">Start</button>
+
+    <div class="grid">
+      <div class="square" id="1"></div>
+      <div class="square" id="2"></div>
+      <div class="square" id="3"></div>
+      <div class="square" id="4"></div>
+      <div class="square" id="5"></div>
+      <div class="square" id="6"></div>
+      <div class="square" id="7"></div>
+      <div class="square" id="8"></div>
+      <div class="square" id="9"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
