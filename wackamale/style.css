@@ -7,6 +7,12 @@ body {
   flex-direction: row;
 }
 
+.mole {
+  background-image: url("./images/mole.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .grid {
   width: 606px;
   height: 606px;
